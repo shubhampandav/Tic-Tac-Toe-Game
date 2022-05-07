@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TicTacToeGame">
         <activity
+            android:name=".gameActivity"
+            android:exported="false" />
+        <activity
             android:name=".startActivity"
             android:exported="false" />
         <activity
